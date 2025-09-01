@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How This App Works"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Select a clear photo of a plant leaf from your gallery or take one with your camera."
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. The app uses an AI model (MobileNetV2) trained on thousands of leaf images to detect possible diseases."
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Results show the top 3 predictions with confidence scores, along with a heatmap highlighting affected areas."
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Access the Disease Knowledge Base and Q&amp;A Offline Chatbot to learn about symptoms, causes, and treatments."
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. All scans are saved locally in your history for future reference."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBackMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Back Menu" />
+    </LinearLayout>
+</ScrollView>

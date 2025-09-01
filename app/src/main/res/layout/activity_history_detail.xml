@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/layoutHistoryDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detailDiseaseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/detailConfidence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confidence:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/detailHealthStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Health Status:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/detailTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scanned On:"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/textSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms:"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/textTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Treatment:"
+            android:textStyle="bold"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/detailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="16dp"
+            android:scaleType="fitCenter" />
+
+
+        <Button
+            android:id="@+id/btnBackMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+</ScrollView>

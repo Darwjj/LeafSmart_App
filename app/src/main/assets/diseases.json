@@ -1,0 +1,193 @@
+{
+  "Apple___Apple_scab": {
+    "description": "A fungal disease affecting apple trees, causing scabs on fruit and leaves.",
+    "symptoms": "Olive-green spots on leaves, cracked fruit skin.",
+    "treatment": "Apply fungicide in early spring. Remove fallen leaves."
+  },
+  "Apple___Black_rot": {
+    "description": "A fungal disease caused by Botryosphaeria obtusa affecting apples.",
+    "symptoms": "Dark sunken lesions on fruit, cankers on twigs.",
+    "treatment": "Prune affected branches. Apply fungicides. Remove infected fruit."
+  },
+  "Apple___Cedar_apple_rust": {
+    "description": "Fungal disease requiring both cedar and apple trees to complete its lifecycle.",
+    "symptoms": "Yellow-orange spots on leaves, gelatinous galls on cedars.",
+    "treatment": "Use resistant varieties. Remove galls from cedar trees. Apply fungicides."
+  },
+  "Apple___healthy": {
+    "description": "No disease detected. Your apple tree looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Maintain good cultural practices and monitor regularly."
+  },
+  "Blueberry___healthy": {
+    "description": "No disease detected. Your blueberry plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Ensure proper soil acidity and consistent watering."
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "description": "A fungal disease causing powdery growth on cherry leaves.",
+    "symptoms": "White powdery coating on leaves and buds.",
+    "treatment": "Apply sulfur-based fungicides. Ensure good air circulation."
+  },
+  "Cherry_(including_sour)___healthy": {
+    "description": "No disease detected. Your cherry plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Prune regularly and monitor for pests or diseases."
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "description": "Fungal leaf spot disease affecting corn.",
+    "symptoms": "Elongated gray lesions on leaves.",
+    "treatment": "Use resistant hybrids. Rotate crops. Apply fungicides."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "description": "Fungal disease caused by Puccinia sorghi in corn.",
+    "symptoms": "Reddish-brown pustules on leaves.",
+    "treatment": "Use resistant varieties. Apply fungicides as needed."
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "description": "A fungal disease that causes significant leaf damage in corn.",
+    "symptoms": "Long cigar-shaped lesions on leaves.",
+    "treatment": "Plant resistant hybrids. Practice crop rotation. Apply fungicides early."
+  },
+  "Corn_(maize)___healthy": {
+    "description": "No disease detected. Your corn plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Ensure proper spacing and soil nutrition."
+  },
+  "Grape___Black_rot": {
+    "description": "A common fungal disease of grapevines.",
+    "symptoms": "Small dark spots on leaves, shriveled black berries.",
+    "treatment": "Remove mummified berries. Apply fungicides pre- and post-bloom."
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "description": "A complex fungal disease affecting mature grapevines.",
+    "symptoms": "Tiger-striped leaves, shriveled fruit.",
+    "treatment": "Remove infected wood. Avoid excessive pruning injuries."
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "description": "A fungal disease causing leaf spots and defoliation.",
+    "symptoms": "Angular brown spots with yellow halos.",
+    "treatment": "Apply fungicides. Improve air circulation. Remove fallen leaves."
+  },
+  "Grape___healthy": {
+    "description": "No disease detected. Your grapevine looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Prune for airflow and maintain a disease-free environment."
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "description": "Bacterial disease spread by the Asian citrus psyllid.",
+    "symptoms": "Yellow shoots, blotchy leaf mottling, small misshapen fruits.",
+    "treatment": "Control psyllids. Remove infected trees. No known cure."
+  },
+  "Peach___Bacterial_spot": {
+    "description": "Bacterial disease affecting leaves and fruit of peach trees.",
+    "symptoms": "Dark spots on leaves and fruit, leaf drop.",
+    "treatment": "Apply copper-based sprays. Use resistant varieties."
+  },
+  "Peach___healthy": {
+    "description": "No disease detected. Your peach tree looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Regular pruning and monitoring are recommended."
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "description": "A bacterial disease affecting bell peppers and leaves.",
+    "symptoms": "Water-soaked spots turning brown, leaf yellowing.",
+    "treatment": "Use certified disease-free seeds. Apply copper-based sprays."
+  },
+  "Pepper,_bell___healthy": {
+    "description": "No disease detected. Your pepper plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Keep consistent watering and avoid overhead irrigation."
+  },
+  "Potato___Early_blight": {
+    "description": "Fungal disease caused by Alternaria solani.",
+    "symptoms": "Dark spots with concentric rings on older leaves.",
+    "treatment": "Use resistant varieties. Rotate crops. Apply fungicides."
+  },
+  "Potato___Late_blight": {
+    "description": "Serious fungal disease affecting potato foliage and tubers.",
+    "symptoms": "Water-soaked lesions on leaves and stems, white mold growth.",
+    "treatment": "Remove infected plants. Apply appropriate fungicides."
+  },
+  "Potato___healthy": {
+    "description": "No disease detected. Your potato plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Ensure well-drained soil and crop rotation."
+  },
+  "Raspberry___healthy": {
+    "description": "No disease detected. Your raspberry plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Prune regularly and maintain spacing to reduce humidity."
+  },
+  "Soybean___healthy": {
+    "description": "No disease detected. Your soybean plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Use good crop practices and resistant varieties."
+  },
+  "Squash___Powdery_mildew": {
+    "description": "Fungal disease common in squash plants.",
+    "symptoms": "White powdery patches on leaves and stems.",
+    "treatment": "Use resistant varieties. Apply fungicides. Improve airflow."
+  },
+  "Strawberry___Leaf_scorch": {
+    "description": "Fungal disease affecting strawberry foliage.",
+    "symptoms": "Purple spots on leaves that turn brown with scorched look.",
+    "treatment": "Remove infected leaves. Apply fungicide during wet seasons."
+  },
+  "Strawberry___healthy": {
+    "description": "No disease detected. Your strawberry plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Keep soil moist and remove old leaves."
+  },
+  "Tomato___Bacterial_spot": {
+    "description": "Bacterial infection affecting tomato foliage and fruit.",
+    "symptoms": "Dark spots with yellow halos, scabby fruit.",
+    "treatment": "Use disease-free seeds. Apply copper-based fungicides."
+  },
+  "Tomato___Early_blight": {
+    "description": "Common tomato disease caused by fungus Alternaria solani.",
+    "symptoms": "Dark spots with concentric rings, leaf yellowing.",
+    "treatment": "Use resistant varieties. Apply fungicides. Remove infected leaves."
+  },
+  "Tomato___Late_blight": {
+    "description": "Highly destructive tomato disease caused by Phytophthora infestans.",
+    "symptoms": "Dark lesions on leaves and fruit, fuzzy white mold.",
+    "treatment": "Apply fungicides. Destroy infected plants."
+  },
+  "Tomato___Leaf_Mold": {
+    "description": "Fungal disease affecting tomatoes in humid conditions.",
+    "symptoms": "Yellow spots on upper leaf surfaces, mold underneath.",
+    "treatment": "Increase air circulation. Apply fungicides early."
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "description": "Fungal disease causing small spots on tomato leaves.",
+    "symptoms": "Circular spots with gray centers, premature leaf drop.",
+    "treatment": "Remove affected foliage. Apply fungicides."
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "description": "Infestation by tiny spider mites damaging leaves.",
+    "symptoms": "Yellow speckling, webbing on undersides of leaves.",
+    "treatment": "Use insecticidal soap or miticide. Improve humidity."
+  },
+  "Tomato___Target_Spot": {
+    "description": "Fungal disease causing round lesions on tomato foliage.",
+    "symptoms": "Brown spots with concentric rings and yellow halos.",
+    "treatment": "Remove infected leaves. Apply recommended fungicides."
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "description": "Viral disease transmitted by whiteflies.",
+    "symptoms": "Leaf curling, yellowing, stunted growth.",
+    "treatment": "Control whiteflies. Remove infected plants. No cure."
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "description": "Highly contagious virus affecting tomatoes.",
+    "symptoms": "Mottled leaf patterns, stunted plant growth.",
+    "treatment": "Sanitize tools. Remove infected plants. No known cure."
+  },
+  "Tomato___healthy": {
+    "description": "No disease detected. Your plant looks healthy!",
+    "symptoms": "None.",
+    "treatment": "Maintain regular watering and sun exposure."
+  }
+
+}

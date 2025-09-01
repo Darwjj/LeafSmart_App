@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    android:weightSum="1">
+
+    <!-- Scrollable content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plant Disease Detection"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Intro/About -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diagnose plant diseases from a leaf photo in seconds. Designed for farmers, gardeners, and extension workers. Works fully offline, no data leaves your phone."
+                android:textSize="16sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Features header -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Key features"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Features list -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• AI diagnosis with top results and confidence.\n• Grad-CAM heatmap to show what the AI looked at.\n• Built-in glossary with symptoms and treatments.\n• Offline chatbot for quick Q&amp;A.\n• Local history to track past scans."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Tech header -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How it’s built"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Tech body -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lightweight MobileNetV2 model trained on the PlantVillage dataset and optimised with TensorFlow Lite (float16) for fast, on-device inference on Android. Developed in Java. No internet required."
+                android:textSize="15sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Privacy -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Privacy: images are processed on your device only. Nothing is uploaded or stored in the cloud."
+                android:textSize="14sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Credits -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Developed by Santiago Andrango\nMSc Data Science &amp; AI, University of Exeter (2025)"
+                android:textSize="14sp"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginBottom="6dp" />
+
+            <!-- Version -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version 1.0 • © 2025"
+                android:textSize="12sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom button (no giant fixed margin) -->
+    <Button
+        android:id="@+id/btnBackMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Menu"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp" />
+
+</LinearLayout>
