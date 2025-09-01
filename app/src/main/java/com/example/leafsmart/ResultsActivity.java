@@ -32,6 +32,12 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.widget.ImageView;
 
+/**
+ * ResultsActivity displays the results of the plant disease detection process.
+ * It shows the predicted disease, confidence levels, and relevant information
+ * such as symptoms and treatment options.
+ */
+
 public class ResultsActivity extends AppCompatActivity {
 
     private TextView diseaseNameText, confidenceText, descriptionText, symptomsText, treatmentText;

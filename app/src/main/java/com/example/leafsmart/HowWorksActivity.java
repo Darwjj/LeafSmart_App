@@ -7,6 +7,11 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+/**
+ * HowWorksActivity provides information on how to use the LeafSmart application.
+ * It explains the features and functionalities available to the user.
+ */
+
 public class HowWorksActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
