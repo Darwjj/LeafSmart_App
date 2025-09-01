@@ -5,6 +5,11 @@ import android.os.Bundle;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * SplashActivity displays the splash screen for the LeafSmart application.
+ * It shows the app logo and a loading animation while initializing the app.
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
