@@ -5,6 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.widget.Button;
 import android.content.Intent;
 
+/**
+ * MainActivity serves as the entry point for the LeafSmart application.
+ * It provides a menu for users to navigate to different features such as
+ * plant disease detection, information on how the app works, and access
+ * to a knowledge base of plant diseases.
+ */
+
 public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
